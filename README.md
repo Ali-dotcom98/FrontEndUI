@@ -1,12 +1,27 @@
-# React + Vite
+GemBuild - Construction Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive website for a construction company called GemBuild. Built with React and enhanced with animations, smooth scrolling, and a sleek UI.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔥 Smooth Animations using @gsap/react and gsap
 
-## Expanding the ESLint configuration
+🎯 Routing with react-router-dom
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔥 Scroll Effects powered by react-scroll
+
+💡 Icons from react-icons and lucide-react
+
+🎉 Odometer Animation with react-odometerjs
+
+🎠 Carousel Sliders using react-slick and slick-carousel
+
+🌙 Dark Mode Toggle
+
+🛠️ Tech Stack
+
+React 19
+
+Vite for fast build and development
+
+Tailwind CSS for styling
