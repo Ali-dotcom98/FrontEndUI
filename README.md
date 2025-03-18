@@ -25,3 +25,7 @@ React 19
 Vite for fast build and development
 
 Tailwind CSS for styling
+![Desktop - 1 (1)](https://github.com/user-attachments/assets/6cccff6f-f2b5-4b30-94a2-d6deb7bb7606)
+
+
+
