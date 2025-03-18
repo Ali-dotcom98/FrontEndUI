@@ -5,7 +5,7 @@ import Reviews from './Components/Reviews'
 import ContactUs from './Components/ContactUs'
 import AboutUs from './Components/AboutUs'
 import NavigationBar from './Components/Header/NavigationBar'
-import Footer from './Components/Footer/footer'
+import Footer from './Components/Footer/Footer'
 import {ThemeProvider} from "./Context/ThemeContext"
 
 const App = () => {
