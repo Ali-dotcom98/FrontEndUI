@@ -40,8 +40,8 @@ const Services = () => {
         <img  src={sketch}  alt="" />
         <div className={`absolute inset-0  bg-opacity-90 ${theme === "light"?"bg-white":"bg-dark-bg-primary"}`}></div>
         </div>
-      <div className='relative z-20 px-10 pt-10'>
-        <div className='flex flex-row items-center translate-x-9'>
+      <div className='relative z-20 px-10 pt-10 '>
+        <div className='flex  flex-row items-center translate-x-9'>
           <div className='flex flex-col gap-5'>
             <h1  className='head1 text-3xl font-medium'>Building Dreams, Crafting Reality</h1>
             <p className='para1 leading-relaxed font-medium' >At GemBuild, we are driven by a passion for creating outstanding construction projects that stand the test of time. Whether you’re envisioning a luxury residential home, a cutting-edge commercial space, or an industrial facility, we bring expertise, innovation, and attention to detail to every project.</p>
@@ -54,7 +54,7 @@ const Services = () => {
             <img src={sketch} className='scale-75 img' alt="" />
           </div>
         </div>
-        <div ref={box} className=' grid grid-cols-3 px-10 gap-6 '>
+        <div ref={box} className='-translate-y-10 grid grid-cols-3 px-10 gap-6 '>
           {
             services.map((data)=>(
               <div className={`${theme ==="light"?"bg-white text-black":"bg-dark-bg-secondary text-white"} flex flex-col shadow-2xl py-8 px-5 rounded-xl gap-3`}>

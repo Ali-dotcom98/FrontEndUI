@@ -59,11 +59,11 @@ const Home = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-corner-right-down"><polyline points="10 15 15 20 20 15"/><path d="M4 4h7a4 4 0 0 1 4 4v12"/></svg>
                 </button>
             </div>
-            <div className='relative z-10 w-full flex items-center justify-center '>
+            <div className='relative z-10 w-full flex items-center justify-center -translate-y-6 '>
               <img className='size-96 scale-110' src={hero} alt="" />
             </div>
           </div>
-          <div className={`box ${theme ==="light"?"bg-white text-black":"bg-dark-bg-secondary text-white"}   -translate-y-2 relative z-20 grid grid-cols-4 gap-3  px-4 py-5 rounded-xl shadow-2xl`} >
+          <div className={`box ${theme ==="light"?"bg-white text-black":"bg-dark-bg-secondary text-white"}   -translate-y-10 relative z-20 grid grid-cols-4 gap-3  px-4 py-5 rounded-xl shadow-2xl`} >
             {
               whyChooseUs.map((data)=>(
                 <div className={`flex flex-col items-center gap-2 `}>
