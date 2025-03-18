@@ -2,6 +2,9 @@ import React from 'react'
 import Slider from "react-slick";
 import {testimonials} from "./source"
 import { Star } from "lucide-react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 import {useTheme} from "../Context/ThemeContext"
 
@@ -13,7 +16,7 @@ const Reviews = () => {
     slidesToShow: 2,
     centerMode: true,
     swipeToSlide: true,
-    centerPadding: "0px",
+    centerPadding: "20px",
   
     autoplay: true,
     autoplaySpeed: 2000,
@@ -26,8 +29,8 @@ const Reviews = () => {
     <>
       <div  id='testimonials' className={ `h-[80vh]  px-10 font-poppins ${theme ==="light"?"bg-white text-black":"bg-dark-bg-primary text-white"} `}>
         
-        <div className='flex flex-row py-16 justify-center  w-full h-full px-10 translate-y-20'>
-          <div className='w-[40%] flex flex-col gap-4'>
+      <div className='flex flex-row py-16 justify-center w-full h-full px-10'>
+      <div className='w-[40%] flex flex-col gap-4'>
             <h1 className='text-primary-or font-medium text-xl' >Client Testimonies</h1>
             <h1 className='text-3xl font-medium' >Building with Excellence</h1>
             <p className='leading-relaxed font-medium' >Meet the experts who bring excellence and innovation to every project. Get to know our dedicated team making your vision a reality.</p>
@@ -35,8 +38,8 @@ const Reviews = () => {
               Contact Us
             </button>   
           </div>
-            <div className='w-[60%] flex flex-col gap-3'>
-            <Slider {...settings} className=''>
+          <div className='w-[60%] flex flex-col gap-3  overflow-hidden'>
+          <Slider {...settings} className=''>
             {
               testimonials.map((data) => (
                 <div className={`mx-3 px-4 py-6 h-[40vh] rounded-lg shadow-md ${theme ==="light"?"bg-white text-black":"bg-dark-bg-secondary text-white"} `}>
@@ -58,9 +61,12 @@ const Reviews = () => {
                 </div>
               ))
       }
-
             </Slider>
-            </div>
+
+          
+          
+          </div>
+            
         </div>
 
       </div>

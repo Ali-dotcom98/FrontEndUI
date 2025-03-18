@@ -85,7 +85,7 @@ const NavigationBar = () => {
                             className=' cursor-pointer pt-7 pb-5 hover:text-primary-or border-primary-or  font-medium tracking-wider'
                         >
                         {
-                            data.label
+                            <p className='font-sans'>{data.label}</p>
                         }
                         </Link>
                         ))
