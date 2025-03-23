@@ -38,10 +38,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/gembuild.git
+git clone https://github.com/Ali-dotcom98/FrontEndUI.git
 
 # Navigate into the project folder
-cd gembuild
+cd FrontEndUI
 
 # Install dependencies
 npm install
