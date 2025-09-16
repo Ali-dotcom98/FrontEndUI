@@ -26,13 +26,7 @@
 - **Icons:** React Icons, Lucide React  
 - **Carousel:** React Slick & Slick Carousel  
 
----
 
-## 🖼️ Screenshot
-
-![GemBuild Screenshot](https://github.com/user-attachments/assets/6cccff6f-f2b5-4b30-94a2-d6deb7bb7606)
-
----
 
 ## 📦 Installation
 
@@ -48,3 +42,14 @@ npm install
 
 # Start the development server
 npm run dev
+```
+---
+
+## 🖼️ Screenshot
+
+![GemBuild Screenshot](https://github.com/user-attachments/assets/6cccff6f-f2b5-4b30-94a2-d6deb7bb7606)
+
+---
+
+Live Preview front-end-ui-beta.vercel.app
+
