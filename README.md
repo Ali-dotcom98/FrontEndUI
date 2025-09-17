@@ -51,5 +51,7 @@ npm run dev
 
 ---
 
-Live Preview front-end-ui-beta.vercel.app
+## Live Preview
+[Open Live Preview](https://front-end-ui-beta.vercel.app)
+
 
